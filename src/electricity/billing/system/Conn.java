@@ -16,7 +16,7 @@ public class Conn {
     Conn()
     {
        try{
-       c=DriverManager.getConnection("jdbc:mysql://localhost:3306/ebs","root","Sumit@1234");
+       c=DriverManager.getConnection("jdbc:mysql://localhost:3306/ebs","root","###");
        s=c.createStatement();
      }catch(Exception e)
      {
